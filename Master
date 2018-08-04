@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+
+float a,b,add,subtract,multiply,divide;
+
+printf("Enter two numbers to operate on\n");
+scanf("%f%f", &a, &b);
+ 
+add = a + b;
+subtract = a - b;
+multiply = a * b;
+divide = a / b;
+
+printf("Sum of the numbers = %f\n", add);
+printf("Difference of the numbers = %f\n", subtract);
+printf("Product of the numbers = %f\n", multiply);
+printf("Division of the numbers = %f\n", divide);
+
+return 0;
+}
